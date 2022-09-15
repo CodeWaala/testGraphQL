@@ -40,17 +40,8 @@ function App() {
       });
   }, []);
 
-  const Basic = (props) => {
-    return (
-      <div>
-        <p>Hello World {props.name}</p>
-      </div>
-    );
-  };
-
   return (
     <div className="App container mt-5">
-      <Basic name="Abhishek"/>
       <h1 className="text-primary">
         <i className="bi bi-diagram-2-fill"></i>Repos
       </h1>
